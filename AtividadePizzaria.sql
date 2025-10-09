@@ -21,8 +21,6 @@ CREATE TABLE tb_pizzas(
     FOREIGN KEY(categorias_id) REFERENCES tb_categorias(id)
 );
 
-DROP TABLE tb_pizzas;
-
 INSERT INTO tb_categorias(tipo, tamanho, borda_recheada) VALUES("Tradicional", "Broto", "Catupiry");
 INSERT INTO tb_categorias(tipo, tamanho, borda_recheada) VALUES("Tradicional", "Grande", "Catupiry");
 INSERT INTO tb_categorias(tipo, tamanho, borda_recheada) VALUES("Tradicional", "Grande", "Requeijão");
